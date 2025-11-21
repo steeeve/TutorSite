@@ -4,6 +4,7 @@ import HeroSection from "../Components/HeroSection";
 import ReviewsSection from "../Components/ReviewsSection";
 import Footer from "../Components/Footer";
 
+
 const Home = () => {
     return (
         <div className="min-h-screen bg-[#0c0c0c] text-white flex flex-col">
