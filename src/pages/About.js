@@ -35,7 +35,7 @@ const About = () => {
                         <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
                             <div className="absolute inset-0 bg-gradient-to-br from-[#01BF71]/20 to-transparent z-10"></div>
                             <img
-                                src="/images/grad.jpeg"
+                                src="/images/Grad.jpg"
                                 alt="Steven tutoring"
                                 className="w-full h-full object-cover"
                             />
