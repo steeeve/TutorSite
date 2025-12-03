@@ -16,7 +16,7 @@ const ReviewsSection = () => {
                                 and I cannot recommend him enough.
                             </p>
                             <p className="text-2xl text-gray-200">
-                                With Steven's help I was able to achieve 100% on my first programming midterm. While also gaining a much better understanding of the confusing lecture material. 
+                                With Steven's help I was able to achieve 100% on my first programming midterm, and gain a much better understanding of the confusing lecture material. 
                                 I highly recommend Steven's services, especially in the areas of math and computer science."
                             </p>
                         </div>
