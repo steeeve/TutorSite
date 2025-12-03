@@ -13,11 +13,10 @@ const ReviewsSection = () => {
                         <div className="mb-6">
                             <p className="text-2xl text-gray-200 mb-4">
                                 "Steven has been helping me with my Intro to Programming and Discrete Math courses since September, 
-                                and I cannot recommend him enough. I appreciate Steven's tutoring approach: he explains the concepts 
-                                very clearly and encourages me to reach solutions independently, which has been extremely beneficial for learning how to solve the problems!
+                                and I cannot recommend him enough.
                             </p>
                             <p className="text-2xl text-gray-200">
-                                With Steven's help I was able to achieve 100% on my first programming midterm. After our tutoring sessions, I have a much better understanding of the confusing lecture material. 
+                                With Steven's help I was able to achieve 100% on my first programming midterm. And I developed a deep understanding of the confusing lecture material. 
                                 I highly recommend Steven's services, especially in the areas of math and computer science."
                             </p>
                         </div>
