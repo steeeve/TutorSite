@@ -36,9 +36,9 @@ const Booking = () => {
                 </section>
 
                 <section className="bg-[#1a1a1a] rounded-2xl border border-gray-800 p-8 md:p-12 shadow-xl">
-                    <h2 className="text-2xl md:text-3xl font-bold mb-4">Need something else?</h2>
+                    <h2 className="text-2xl md:text-3xl font-bold mb-4">Want to get started?</h2>
                     <p className="text-lg text-gray-300">
-                        For additional inquiries, please email:&nbsp;
+                        To set up an introductory meeting going over goals and expectations, please email:&nbsp;
                         <a
                             href="mailto:h42chang@uwaterloo.ca"
                             className="text-[#01BF71] hover:text-white underline transition-colors"

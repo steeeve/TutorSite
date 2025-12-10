@@ -2,7 +2,7 @@ import React from "react";
 
 const ReviewsSection = () => {
     return (
-        <section className="relative bg-[#0c0c0c] py-24 px-4">
+        <section id="reviews" className="relative bg-[#0c0c0c] py-24 px-4">
             <div className="max-w-6xl mx-auto">
                 <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">What Students Say</h2>
                 
@@ -50,13 +50,13 @@ const ReviewsSection = () => {
                     </div>
                 </div>
 
-                <div className="grid gap-8 md:grid-cols-1 lg:grid-cols-1 max-w-3xl mx-auto">
+                <div className="grid gap-8 md:grid-cols-1 lg:grid-cols-1 max-w-3xl mx-auto mt-12">
                     {/* Review Card */}
                     <div className="bg-[#1a1a1a] rounded-2xl border border-gray-800 p-8 shadow-xl">
                         {/* Review Text */}
                         <div className="mb-6">
                             <p className="text-2xl text-gray-200 mb-4">
-                                "Steven’s been of great help to me with my computer theory course, taking the time to carefully go over concepts and exercises. My grades have seen a significant increase with Steven’s tutoring help and I’d highly recommend him to anyone interested.""
+                                "Steven’s been of great help to me with my computer theory course, taking the time to carefully go over concepts and exercises. My grades have seen a significant increase with Steven’s tutoring help and I’d highly recommend him to anyone interested."
                             </p>
                         </div>
                         

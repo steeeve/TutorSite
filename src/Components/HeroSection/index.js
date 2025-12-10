@@ -2,6 +2,17 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const HeroSection = () => {
+    const scrollToReviews = () => {
+        const element = document.getElementById("reviews");
+
+        if (element) {
+            const offset = 0; // keep heading visible below the sticky navbar
+            const top = element.getBoundingClientRect().top + window.pageYOffset - offset;
+
+            window.scrollTo({ top, behavior: "smooth" });
+        }
+    };
+
     return (
         <section className="relative min-h-[800px] flex items-center justify-center px-4 py-20 overflow-hidden bg-[#0c0c0c]">
             {/* Content */}
@@ -15,13 +26,20 @@ const HeroSection = () => {
                         <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto md:mx-0">
                             Personalized 1:1 lessons to help you reach your Math, Statistics, Physics, and Computer Science goals.
                         </p>
-                        <div className="flex justify-center md:justify-start">
+                        <div className="flex justify-center md:justify-start gap-4">
                             <Link
                                 to="/booking"
                                 className="inline-flex items-center px-8 py-4 bg-[#01BF71] text-[#010606] font-semibold rounded-full hover:bg-white transition-all duration-300 transform hover:scale-105"
                             >
                                 Get in touch
                             </Link>
+                            <button
+                                type="button"
+                                onClick={scrollToReviews}
+                                className="inline-flex items-center px-8 py-4 bg-[#01BF71] text-[#010606] font-semibold rounded-full hover:bg-white transition-all duration-300 transform hover:scale-105"
+                            >
+                                Read my reviews
+                            </button>
                         </div>
                     </div>
 
