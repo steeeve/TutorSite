@@ -49,6 +49,47 @@ const ReviewsSection = () => {
                         </div>
                     </div>
                 </div>
+
+                <div className="grid gap-8 md:grid-cols-1 lg:grid-cols-1 max-w-3xl mx-auto">
+                    {/* Review Card */}
+                    <div className="bg-[#1a1a1a] rounded-2xl border border-gray-800 p-8 shadow-xl">
+                        {/* Review Text */}
+                        <div className="mb-6">
+                            <p className="text-2xl text-gray-200 mb-4">
+                                "Steven’s been of great help to me with my computer theory course, taking the time to carefully go over concepts and exercises. My grades have seen a significant increase with Steven’s tutoring help and I’d highly recommend him to anyone interested.""
+                            </p>
+                        </div>
+                        
+                        {/* Customer Info */}
+                        <div className="flex items-center gap-4">
+                            {/* Profile Picture */}
+                            <div className="w-16 h-16 rounded-full bg-gradient-to-br from-[#01BF71] to-[#01BF71]/60 flex items-center justify-center flex-shrink-0">
+                                <svg 
+                                    className="w-10 h-10 text-white" 
+                                    fill="currentColor" 
+                                    viewBox="0 0 20 20"
+                                >
+                                    <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
+                                </svg>
+                            </div>
+                            
+                            {/* Customer Details */}
+                            <div className="flex-1">
+                                <div className="flex flex-col sm:flex-row sm:items-center sm:gap-2">
+                                    <h3 className="text-xl font-semibold text-white">Ibraheem</h3>
+                                    <span className="text-gray-400 text-sm sm:text-base">
+                                        • Computer Science
+                                    </span>
+                                </div>
+                                <p className="text-gray-400 text-sm mt-1">
+                                    University of Toronto
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
         </section>
     );
