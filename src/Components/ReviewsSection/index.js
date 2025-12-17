@@ -6,6 +6,7 @@ const ReviewsSection = () => {
             <div className="max-w-6xl mx-auto">
                 <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">What Students Say</h2>
                 
+                {/* Olivia's review */}
                 <div className="grid gap-8 md:grid-cols-1 lg:grid-cols-1 max-w-3xl mx-auto">
                     {/* Review Card */}
                     <div className="bg-[#1a1a1a] rounded-2xl border border-gray-800 p-8 shadow-xl">
@@ -50,6 +51,7 @@ const ReviewsSection = () => {
                     </div>
                 </div>
 
+                {/* Ibraheem's review */}
                 <div className="grid gap-8 md:grid-cols-1 lg:grid-cols-1 max-w-3xl mx-auto mt-12">
                     {/* Review Card */}
                     <div className="bg-[#1a1a1a] rounded-2xl border border-gray-800 p-8 shadow-xl">
@@ -89,6 +91,87 @@ const ReviewsSection = () => {
                     </div>
                 </div>
 
+
+                {/* Maggie's review */}
+                <div className="grid gap-8 md:grid-cols-1 lg:grid-cols-1 max-w-3xl mx-auto mt-12">
+                    {/* Review Card */}
+                    <div className="bg-[#1a1a1a] rounded-2xl border border-gray-800 p-8 shadow-xl">
+                        {/* Review Text */}
+                        <div className="mb-6">
+                            <p className="text-2xl text-gray-200 mb-4">
+                                "Steven has been a big help with all my math units, especially trig. He explained everything in a way that made sense, and I ended up getting one of the highest grades in my class while a lot of people failed. He's super knowledgeable and always patient and nice during our lessons. I feel more confident after working with him, and I definitely recommend Steven as a tutor"
+                            </p>
+                        </div>
+                        
+                        {/* Customer Info */}
+                        <div className="flex items-center gap-4">
+                            {/* Profile Picture */}
+                            <div className="w-16 h-16 rounded-full bg-gradient-to-br from-[#01BF71] to-[#01BF71]/60 flex items-center justify-center flex-shrink-0">
+                                <svg 
+                                    className="w-10 h-10 text-white" 
+                                    fill="currentColor" 
+                                    viewBox="0 0 20 20"
+                                >
+                                    <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
+                                </svg>
+                            </div>
+                            
+                            {/* Customer Details */}
+                            <div className="flex-1">
+                                <div className="flex flex-col sm:flex-row sm:items-center sm:gap-2">
+                                    <h3 className="text-xl font-semibold text-white">Ibraheem</h3>
+                                    <span className="text-gray-400 text-sm sm:text-base">
+                                        • Math 30-1, Alberta
+                                    </span>
+                                </div>
+                                <p className="text-gray-400 text-sm mt-1">
+                                    High School
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                {/* Maggie's review */}
+                <div className="grid gap-8 md:grid-cols-1 lg:grid-cols-1 max-w-3xl mx-auto mt-12">
+                    {/* Review Card */}
+                    <div className="bg-[#1a1a1a] rounded-2xl border border-gray-800 p-8 shadow-xl">
+                        {/* Review Text */}
+                        <div className="mb-6">
+                            <p className="text-2xl text-gray-200 mb-4">
+                                "Steven has been a big help with all my math units, especially trig. He explained everything in a way that made sense, and I ended up getting one of the highest grades in my class while a lot of people failed. He's super knowledgeable and always patient and nice during our lessons. I feel more confident after working with him, and I definitely recommend Steven as a tutor"
+                            </p>
+                        </div>
+                        
+                        {/* Customer Info */}
+                        <div className="flex items-center gap-4">
+                            {/* Profile Picture */}
+                            <div className="w-16 h-16 rounded-full bg-gradient-to-br from-[#01BF71] to-[#01BF71]/60 flex items-center justify-center flex-shrink-0">
+                                <svg 
+                                    className="w-10 h-10 text-white" 
+                                    fill="currentColor" 
+                                    viewBox="0 0 20 20"
+                                >
+                                    <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
+                                </svg>
+                            </div>
+                            
+                            {/* Customer Details */}
+                            <div className="flex-1">
+                                <div className="flex flex-col sm:flex-row sm:items-center sm:gap-2">
+                                    <h3 className="text-xl font-semibold text-white">Ibraheem</h3>
+                                    <span className="text-gray-400 text-sm sm:text-base">
+                                        • Math 30-1, Alberta
+                                    </span>
+                                </div>
+                                <p className="text-gray-400 text-sm mt-1">
+                                    High School
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </section>
