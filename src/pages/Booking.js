@@ -32,7 +32,7 @@ const Booking = () => {
                             2 hour Booking
                         </a>
                     </div>
-                    <p className="text-lg text-gray-300 mt-8">Billed at $40/hr</p>
+                    <p className="text-lg text-gray-300 mt-8">Billed at $50/hr</p>
                 </section>
 
                 <section className="bg-[#1a1a1a] rounded-2xl border border-gray-800 p-8 md:p-12 shadow-xl">
